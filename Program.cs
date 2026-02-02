@@ -1,10 +1,4 @@
-﻿namespace COMP1030_W26_Lab_4
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
-}
+﻿using System;
+
+// STEP 1: Read the below code - we have created a variable called localDate (which is data type DateTime) - this stores the current date and time for your computer
+DateTime localDate = DateTime.Now;
