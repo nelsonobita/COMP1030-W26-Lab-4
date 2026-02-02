@@ -12,3 +12,10 @@ string hourString = localDate.ToString("HH");
 // STEP 2b: Examine the below line of code - we need to convert the variable hour to an integer (so we can use relational operators later)
 int hour = Int32.Parse(hourString);
 
+
+// STEP 3: Create an 'if' condition to check whether it is the weekend
+if (day == "Saturday" || day == "Sunday")
+
+
+
+
